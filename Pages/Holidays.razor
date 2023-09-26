@@ -1,0 +1,61 @@
+﻿
+@page "/Holidays"
+@using blazorlisteapp
+@using blazorlisteapp.Data
+@using TempApp
+@using System.Globalization
+@using System.Collections.Generic
+
+@code {
+    IEnumerable<Holiday> ?holidays;
+    bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        holidays = HolidayGetter.GetHolidays(DateTime.Now, DateTime.Now.AddMonths(11), "ea28738f-971f-4791-a682-4d14ba6b0ddd");
+        isLoading = false;
+    }
+}
+
+<h3>Holidays</h3>
+
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+<ul>
+    @foreach (var holiday in holidays)
+    {
+        <li>@holiday.Name - @holiday.Date.ToString("yyyy/MM/dd")</li>
+    }
+
+</ul>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Is holiday?</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var holiday in holidays)
+            {
+                <tr>
+                    <td>@holiday.Date.ToShortDateString()</td>
+                    <td>@holiday.Name</td>
+                    <td>@holiday.NationalHoliday</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+
+
+

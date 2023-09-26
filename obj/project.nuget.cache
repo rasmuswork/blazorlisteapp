@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6h4jIbTLrE813F5F7RMuhUEI0R2m32S2hVm/eoDOq12kwcwwBGCXmkF7tQELLjQNECk3sI8/wPY4hOEBQku7Nw==",
+  "success": true,
+  "projectFilePath": "/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/blazorlisteapp.csproj",
+  "expectedPackageFiles": [
+    "/Users/skoleoplaeringscenter/.nuget/packages/restsharp/110.2.0/restsharp.110.2.0.nupkg.sha512",
+    "/Users/skoleoplaeringscenter/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/skoleoplaeringscenter/.nuget/packages/system.text.json/7.0.2/system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
