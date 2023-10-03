@@ -8,7 +8,7 @@ using System.Collections.Concurrent;
 namespace TempApp
 {
 
-    public record struct Holiday
+    public sealed class Holiday
     {
         [JsonPropertyName("name")]
         public string Name { get; set; }

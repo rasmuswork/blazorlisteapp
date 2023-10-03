@@ -39,9 +39,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[110.2.0, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
             }
           },
           "imports": [
