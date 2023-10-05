@@ -4,6 +4,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Collections.Concurrent;
+using blazorlisteapp.Data;
 
 namespace TempApp
 {
@@ -18,22 +19,46 @@ namespace TempApp
         public bool NationalHoliday { get; set; }
     }
 
-
-
     public static class HolidayGetter
     {
-        public static IEnumerable<Holiday> GetHolidays(DateTime startDate, DateTime endDate, string APIKey)
+        private const string APIKey = "ea28738f-971f-4791-a682-4d14ba6b0ddd"; // Wery bad form, should be in some form of config file, but i can't be fucked
+        public static IEnumerable<Holiday> GetHolidays(DateTime startDate, DateTime endDate)
         {
+            IEnumerable<Holiday> GetFromWeb()
+            {
+                foreach (Holiday holiday in GetHolidays_FromWeb(startDate, endDate))
+                {
+                    HolidaysDatabase.SaveHolidayToDatabase(holiday);
+                    yield return holiday;
+                    
+                }
+            }
 
-            string responseValue = GetHolidaysJsonString(startDate, endDate, APIKey);
+            IEnumerable<Holiday> GetFromDB()
+            {
+                Holiday[] DBHolidays = HolidaysDatabase.LoadHolidays(startDate, endDate).ToArray();
+                if(DBHolidays.Length > 0)
+                {
+                    return DBHolidays;
+                }
+                else
+                {
+                    return GetFromWeb();
+                }
+            }
+
+            bool DatabaseNotNew = HolidaysDatabase.EnsureDatabaseStructure();
+            if (DatabaseNotNew) { return GetFromDB(); }
+            else { return GetFromWeb(); }
+        }
+        private static IEnumerable<Holiday> GetHolidays_FromWeb(DateTime startDate, DateTime endDate)
+        {
+            string responseValue = GetHolidaysJsonString(startDate, endDate);
             Holiday[] holidays = JsonSerializer.Deserialize<Holiday[]>(responseValue);
-
             return holidays;
         }
-
-
         private static ConcurrentDictionary<string, string> URLDataCache = new();
-        public static string GetHolidaysJsonString(DateTime startDate, DateTime endDate, string APIKey)
+        public static string GetHolidaysJsonString(DateTime startDate, DateTime endDate)
         {
             const string baseURL = @"https://api.sallinggroup.com/v1/holidays?";
             const string dateTimeFormatString = "yyyy-MM-dd";
@@ -69,6 +94,11 @@ namespace TempApp
             return URLDataCache[URL];
         }
 
+        //private static IEnumerable<Holiday> GetHolidays_FromDB(DateTime startDate, DateTime endDate)
+        //{
+        //    HolidaysDatabase.EnsureDatabaseStructure();
+        //    return HolidaysDatabase.LoadHolidays(startDate, endDate);
+        //}
     }
 }
 
