@@ -12,7 +12,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        holidays = HolidayGetter.GetHolidays(DateTime.Now, DateTime.Now.AddMonths(11), "ea28738f-971f-4791-a682-4d14ba6b0ddd");
+        holidays = HolidayGetter.GetHolidays(DateTime.Now, DateTime.Now.AddMonths(11));
         isLoading = false;
     }
 }
