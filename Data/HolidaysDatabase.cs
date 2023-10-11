@@ -9,6 +9,9 @@ namespace blazorlisteapp.Data
 {
     public static class HolidaysDatabase
     {
+
+        //On MAC the program needs SQLite core to work, it might try to install in the wrong place.
+        //Add code to check if the code is in the right place BEFORE starting.
         private const string DatabaseFileName = "holidays.sqlite";
         private const string HolidaysTableName = "Holidays";
 

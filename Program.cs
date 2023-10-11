@@ -1,6 +1,9 @@
-﻿            using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using blazorlisteapp.Data;
+using System.Data.SQLite;
+using System.Data.SqlClient;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

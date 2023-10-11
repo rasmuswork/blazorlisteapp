@@ -21,7 +21,7 @@ namespace TempApp
 
     public static class HolidayGetter
     {
-        private const string APIKey = "ea28738f-971f-4791-a682-4d14ba6b0ddd"; // Wery bad form, should be in some form of config file, but i can't be fucked
+        private const string APIKey = "ea28738f-971f-4791-a682-4d14ba6b0ddd"; // very bad form, should be in some form of config file, but i can't be fucked
         public static IEnumerable<Holiday> GetHolidays(DateTime startDate, DateTime endDate)
         {
             IEnumerable<Holiday> GetFromWeb()

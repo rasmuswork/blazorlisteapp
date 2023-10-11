@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = blazorlisteapp
 build_property.RootNamespace = blazorlisteapp
-build_property.ProjectDir = C:\Temp-NVME\HjortHelpings\blazorlisteapp\
+build_property.ProjectDir = /Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Temp-NVME\HjortHelpings\blazorlisteapp
+build_property.MSBuildProjectDirectory = /Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/App.razor]
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Pages/Holidays.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9saWRheXMucmF6b3I=
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Pages/Holidays.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9saWRheXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/_Imports.razor]
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-o2b3k5vw01
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qdu0n6wlzq
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-94iuhcj0ex
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-081ulkjpfi
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Temp-NVME/HjortHelpings/blazorlisteapp/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+[/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

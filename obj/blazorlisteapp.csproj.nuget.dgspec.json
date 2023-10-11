@@ -1,31 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp-NVME\\HjortHelpings\\blazorlisteapp\\blazorlisteapp.csproj": {}
+    "/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/blazorlisteapp.csproj": {}
   },
   "projects": {
-    "C:\\Temp-NVME\\HjortHelpings\\blazorlisteapp\\blazorlisteapp.csproj": {
+    "/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/blazorlisteapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp-NVME\\HjortHelpings\\blazorlisteapp\\blazorlisteapp.csproj",
+        "projectUniqueName": "/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/blazorlisteapp.csproj",
         "projectName": "blazorlisteapp",
-        "projectPath": "C:\\Temp-NVME\\HjortHelpings\\blazorlisteapp\\blazorlisteapp.csproj",
-        "packagesPath": "C:\\Users\\spk-t\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp-NVME\\HjortHelpings\\blazorlisteapp\\obj\\",
+        "projectPath": "/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/blazorlisteapp.csproj",
+        "packagesPath": "/Users/skoleoplaeringscenter/.nuget/packages/",
+        "outputPath": "/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\spk-t\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/skoleoplaeringscenter/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +39,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
             "System.Data.SQLite": {
               "target": "Package",
               "version": "[1.0.118, )"
@@ -68,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }
