@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 using System.Collections.Concurrent;
 using blazorlisteapp.Data;
 
-namespace TempApp
+namespace blazorlisteapp
 {
 
     public sealed class Holiday
@@ -30,7 +30,7 @@ namespace TempApp
                 {
                     HolidaysDatabase.SaveHolidayToDatabase(holiday);
                     yield return holiday;
-                    
+
                 }
             }
 
