@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zfiTXmW3yafEYbXC/klioac1oArt5VHyVFj+2Qz/O+tZyeojRbvrfx10owW9vxU1C82KzIFqGs62Ik8Bd06W0g==",
+  "dgSpecHash": "b929/hO6KmqFczr7CsLJASHCzI6n0o5ur7KhTb92LgYkuf76QT+pAyssP/O/J8dY8wss9QDH1QvRLGYUgwW0Gw==",
   "success": true,
   "projectFilePath": "/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/blazorlisteapp.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "/Users/skoleoplaeringscenter/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/skoleoplaeringscenter/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/skoleoplaeringscenter/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/skoleoplaeringscenter/.nuget/packages/sqlite/3.13.0/sqlite.3.13.0.nupkg.sha512",
     "/Users/skoleoplaeringscenter/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/skoleoplaeringscenter/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
     "/Users/skoleoplaeringscenter/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

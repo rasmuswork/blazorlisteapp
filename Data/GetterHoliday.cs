@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 using System.Collections.Concurrent;
 using blazorlisteapp.Data;
 
-namespace blazorlisteapp
+namespace TempApp
 {
 
     public sealed class Holiday

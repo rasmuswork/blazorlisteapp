@@ -93,6 +93,10 @@ C:/Temp-NVME/HjortHelpings/blazorlisteapp/obj/Debug/net7.0/ref/blazorlisteapp.dl
 /Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/win-arm64/native/sni.dll
 /Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/win-x64/native/sni.dll
 /Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/win-x86/native/sni.dll
+/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/linux-x64/native/libsqlite3.so
+/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/osx-x64/native/libsqlite3.dylib
+/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/win7-x64/native/sqlite3.dll
+/Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/win7-x86/native/sqlite3.dll
 /Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
 /Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
 /Users/skoleoplaeringscenter/Projects/blazorlisteapp/blazorlisteapp/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
